@@ -1,5 +1,12 @@
 import React from "react";
 import "./CompaniesSection.css";
+import companies1 from "../../assets/compaines1.png";
+import companies2 from "../../assets/compaines2.png";
+import companies3 from "../../assets/companies3.png";
+import companies4 from "../../assets/companies4.png";
+import companies5 from "../../assets/companies5.png";
+import companies6 from "../../assets/companies6.png";
+import mapImage from "../../assets/map.png";
 
 const CompaniesSection = () => {
   return (
@@ -16,27 +23,27 @@ const CompaniesSection = () => {
         <div className="logosContainer">
 
           <div className="logoSlot">
-            <img src="" alt="logo1" />
+            <img src={companies1} alt="logo1" />
           </div>
 
           <div className="logoSlot">
-            <img src="" alt="logo2" />
+            <img src={companies2} alt="logo2" />
           </div>
 
           <div className="logoSlot">
-            <img src="" alt="logo3" />
+            <img src={companies3} alt="logo3" />
           </div>
 
           <div className="logoSlot">
-            <img src="" alt="logo4" />
+            <img src={companies4} alt="logo4" />
           </div>
 
           <div className="logoSlot">
-            <img src="" alt="logo5" />
+            <img src={companies5} alt="logo5" />
           </div>
 
           <div className="logoSlot">
-            <img src="" alt="logo6" />
+            <img src={companies6} alt="logo6" />
           </div>
 
         </div>
@@ -65,7 +72,7 @@ const CompaniesSection = () => {
         </div>
 
         <div className="gradientImage">
-          <img src="" alt="world map" />
+          <img src="../../assets/map.png" alt="world map" />
         </div>
 
       </div>

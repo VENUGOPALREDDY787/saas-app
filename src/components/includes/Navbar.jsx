@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import Downbutton from './donwbutton';
-import logo from "../../assets/image.png";
+import logo from "../../assets/logo.png";
 export default function Navbar() {
   return (
     <nav className="navbar">

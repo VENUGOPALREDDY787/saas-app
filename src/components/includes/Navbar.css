@@ -18,17 +18,21 @@
   display: flex;
   align-items: center;
   gap: 8px;
+   height: 34px;
 }
 
 .logo {
-  width: 24px;
-  height: 20px;
+  width: 28px;
+  height: 28px;
 }
 
 .logoText {
-  font-size: 18px;
+    font-size: 20px;
   font-weight: 600;
+
   color: white;
+
+  line-height: 1;
 }
 
 /* Right section */

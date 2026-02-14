@@ -2,12 +2,12 @@ import React from "react";
 import "./FeatureBoxes.css";
 
 // replace these with your real images
-import icon1 from "../../assets/image.png";
-import icon2 from "../../assets/image.png";
-import icon3 from "../../assets/image.png";
-import icon4 from "../../assets/image.png";
-import icon5 from "../../assets/image.png";
-import icon6 from "../../assets/image.png";
+import icon1 from "../../assets/feature1.png";
+import icon2 from "../../assets/feature2.png";
+import icon3 from "../../assets/feature3.png";
+import icon4 from "../../assets/feature4.png";
+import icon5 from "../../assets/feature5.png";
+import icon6 from "../../assets/feature6.png";
 
 const features = [
   {

@@ -1,10 +1,10 @@
 import React from "react";
 import "./Footer.css";
 
-import logo from "../../assets/image1.png";
-import twitter from "../../assets/image1.png";
-import linkedin from "../../assets/image1.png";
-import discord from "../../assets/image1.png";
+import logo from "../../assets/logo.png";
+import twitter from "../../assets/twitter.png";
+import linkedin from "../../assets/linkdin.png";
+import discord from "../../assets/discord.png";
 
 const Footer = () => {
   return (

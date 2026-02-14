@@ -1,26 +1,29 @@
-/* Gradient button */
 .downloadButton {
-  padding: 8px 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 12px 28px;
+
+  min-width: 198px;
+  height: 44px;
+
+  background: linear-gradient(
+    92.51deg,
+    #FF9898 0.48%,
+    #8054FF 100%
+  );
+
+  border-radius: 5px;
 
   border: none;
-  border-radius: 6px;
 
+  color: white;
   font-size: 14px;
   font-weight: 500;
 
-  color: white;
-
-  background: linear-gradient(
-    90deg,
-    #ff7eb3,
-    #8a5cff
-  );
-
   cursor: pointer;
 
-  transition: 0.3s;
-}
-
-.downloadButton:hover {
-  opacity: 0.8;
+  white-space: nowrap;
 }

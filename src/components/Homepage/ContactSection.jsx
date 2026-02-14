@@ -1,7 +1,7 @@
 import React from "react";
 import "./ContactSection.css";
 
-import globe from "../../assets/image.png"; // use your globe image path
+import globe from "../../assets/glob.png"; // use your globe image path
 
 const ContactSection = () => {
   return (

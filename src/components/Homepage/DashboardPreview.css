@@ -34,7 +34,6 @@
   bottom: -500px;
 }
 
-
 /* These ellipses CUT the gradient */
 .cut {
   position: absolute;
@@ -68,30 +67,69 @@
 
   border-radius: 28px;
 
-  padding: 30px;
+  padding: 24px;
 
   z-index: 2;
 
   box-shadow: 0 40px 120px rgba(0,0,0,0.9);
 }
 
-/* inner cards */
+
+/* Main grid container */
 .cardGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+
+  grid-template-columns: 1fr 1fr 1fr;
+
+  gap: 20px;
+
+  height: 100%;
+}
+
+
+/* Column base */
+.column {
+  display: grid;
+  height: 100%;
+}
+
+
+/* Middle column → 50% / 50% */
+.column2 {
+  grid-template-rows: 1fr 1fr;
   gap: 20px;
 }
 
+
+/* Right column → 70% / 30% */
+.column3 {
+  grid-template-rows: 7fr 3fr;
+  gap: 20px;
+}
+
+
+/* Card base style */
 .card {
   background: #1C1D22;
+
   border-radius: 16px;
-  height: 140px;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  position: relative;
 }
 
-.tall {
-  height: 260px;
-}
 
-.wide {
-  grid-column: span 2;
+/* Image support (for later use) */
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

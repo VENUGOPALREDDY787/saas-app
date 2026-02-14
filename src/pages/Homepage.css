@@ -1,0 +1,70 @@
+.homepage {
+  position: relative;
+  background: black;
+  overflow: hidden;
+}
+
+
+/* Base ellipse style */
+.ellipse {
+  position: absolute;
+  border-radius: 50%;
+
+  background: radial-gradient(
+    circle at 42% -7%,
+    #494955 0%,
+    #141414 100%
+  );
+
+  pointer-events: none;
+}
+
+
+/* Ellipse 14 */
+.ellipse1 {
+  width: 130px;
+  height: 130px;
+  left: 122px;
+  top: 400px;
+  filter: blur(15px);
+}
+
+
+/* Ellipse 3 */
+.ellipse2 {
+  width: 96px;
+  height: 96px;
+  left: 1223px;
+  top: 200px;
+  filter: blur(10px);
+}
+
+
+/* Ellipse 13 */
+.ellipse3 {
+  width: 64px;
+  height: 64px;
+  left: 200px;
+  top: 70px;
+  filter: blur(10px);
+}
+
+
+/* Ellipse 15 */
+.ellipse4 {
+  width: 96px;
+  height: 96px;
+  left: 594px;
+  top: 4465px;
+  filter: blur(10px);
+}
+
+
+/* Ellipse 16 */
+.ellipse5 {
+  width: 64px;
+  height: 64px;
+  left: 108px;
+  top: 3933px;
+  filter: blur(10px);
+}
