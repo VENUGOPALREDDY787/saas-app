@@ -264,5 +264,6 @@ http://localhost:5173
 ---
 
 ## Demo Video
-
-(Add screen recording link here)
+(https://drive.google.com/file/d/1175z0Uo7ksYm_gcZzbcEwjmSnEGz7qQQ/view?usp=sharing)
+## Live link
+(https://saas-app-demo-eight.vercel.app/)
