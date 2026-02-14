@@ -1,0 +1,76 @@
+.navbar {
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 20px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+  z-index: 10;
+}
+
+/* Logo section */
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo {
+  width: 24px;
+  height: 20px;
+}
+
+.logoText {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+/* Right section */
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.homeLink {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.homeLink:hover {
+  color: white;
+}
+
+/* Gradient button */
+.downloadButton {
+  padding: 8px 16px;
+
+  border: none;
+  border-radius: 6px;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  color: white;
+
+  background: linear-gradient(
+    90deg,
+    #ff7eb3,
+    #8a5cff
+  );
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.downloadButton:hover {
+  opacity: 0.8;
+}

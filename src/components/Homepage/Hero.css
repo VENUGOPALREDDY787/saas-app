@@ -1,0 +1,28 @@
+.hero{
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  padding-top: 50px;   /* this replaces top: 169px */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.main {
+  
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+
+  font-size: 64px;
+  line-height: 80px;
+
+  text-align: center;
+  color: #FFFFFF;
+
+  max-width: 749px;
+
+  margin: 0 auto;
+}.mainText{
+    opacity: 0.6;
+}

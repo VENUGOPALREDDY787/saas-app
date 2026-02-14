@@ -1,0 +1,159 @@
+.companiesWrapper {
+  position: relative;
+  width: 100%;
+  height: 1000px;
+}
+
+
+/* Rectangle 49 — Ash Rectangle */
+.ashRectangle {
+
+  position: absolute;
+  width: 100%;
+  height: 725px;
+  left: 0px;
+  top: 0px;
+
+  background: #18181C;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 140px;
+}
+
+
+/* Heading */
+.companiesHeading {
+
+  color: #FFFFFF;
+
+  font-size: 32px;
+  font-weight: 600;
+
+  text-align: center;
+
+  margin-bottom: 50px;
+
+  line-height: 1.4;
+}
+
+
+/* Logos row */
+.logosContainer {
+
+  display: flex;
+  gap: 20px;
+}
+
+
+/* Logo slot */
+.logoSlot {
+
+  width: 130px;
+  height: 50px;
+
+  background: #0D0D10;
+
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Logo image */
+.logoSlot img {
+
+  max-width: 80%;
+  max-height: 70%;
+  object-fit: contain;
+}
+
+
+
+/* Rectangle 36 — Gradient Rectangle */
+.gradientRectangle {
+
+  position: absolute;
+  width: 1110px;
+  height: 425px;
+  left: 165px;
+  top: 496px;
+
+  background: linear-gradient(
+    135.66deg,
+    #FF9898 14.73%,
+    #8054FF 86.33%
+  );
+
+  border-radius: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-left: 80px;
+  padding-right: 80px;
+
+  box-sizing: border-box;
+}
+
+
+/* Left text */
+.gradientContent {
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+.smallText {
+
+  color: white;
+  font-size: 14px;
+
+  margin-bottom: 10px;
+}
+
+
+.gradientHeading {
+
+  color: white;
+
+  font-size: 32px;
+  font-weight: 600;
+
+  margin-bottom: 20px;
+
+  line-height: 1.4;
+}
+
+
+/* Button */
+.downloadBtn {
+
+  width: 160px;
+  height: 45px;
+
+  background: black;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  font-size: 14px;
+
+  cursor: pointer;
+}
+
+
+/* Image */
+.gradientImage img {
+
+  width: 350px;
+
+  object-fit: contain;
+}
